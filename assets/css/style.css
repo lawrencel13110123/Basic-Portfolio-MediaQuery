@@ -57,7 +57,7 @@ a {
 
 #leftpanel {
 	background-color: #ffffff;
-	width: 500px;
+	width: 45%;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 20px;
@@ -65,6 +65,7 @@ a {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	margin-left: 100px;
+	box-sizing: border-box;
 	display: inline-block;
 }
 
@@ -79,8 +80,8 @@ a {
 }
 
 #mypic {
-	width: 200px; 
-	height: 200px;
+	width: 20%; 
+	height: 20%;
 	margin-right: 20px;
 	float: left;
 }
@@ -100,10 +101,12 @@ a {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 20px;
+	width: 30%;
 	border: thin solid #dddddd;
 	margin-top: 20px;
 	margin-right: 100px;
 	float: right;
+	box-sizing: border-box;
 }
 
 #rightheader {
@@ -140,6 +143,10 @@ a {
 	background-image: url("../images/background.png");
 	border-top: solid #cccccc; 
 	position: relative;
+}
+
+.icons {
+	width: 30%;
 }
 
 /* FOR contact.html */
@@ -219,7 +226,7 @@ a {
 @media screen and (max-width: 980px) {
 #leftpanel {
 	background-color: #ffffff;
-	width: 200px;
+	
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 20px;
@@ -227,7 +234,7 @@ a {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	margin-left: 100px;
-	margin-right: 50px;
+	margin-right: 20px;
 	display: inline-block;
 }
 
@@ -235,23 +242,22 @@ a {
 	background-color: #ffffff;
 	padding-left: 25px;
 	padding-bottom: 20px;
-	width: 400px;
+
 	border: thin solid #dddddd;
 	margin-top: 20px;
-	margin-right: 50px;
+	margin-right: 20px;
 }
 
 #mypic {
-	width: 200px; 
-	height: 200px;
+	width: 30%; 
+	height: 30%;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	float: left;
 }
 
 .icons {
-	width: 100px;
-	height: 100px ;
+	width: 30%;
 }
 
 .blocks {
@@ -326,16 +332,15 @@ a {
 }
 
 #mypic {
-	width: 100px; 
-	height: 100px;
+	width: 30%; 
+	height: 30%;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	float: left;
 }
 
 .icons {
-	width: 100px;
-	height: 100px ;
+	width: 30%;
 }
 
 #myinfo1 {
